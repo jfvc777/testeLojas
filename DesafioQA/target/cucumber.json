@@ -1,0 +1,133 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8497681085,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que ingresamos ao site das Lojas Americanas",
+            "match": {
+              "location": "StepsLojasAmericanas.queIngresamosAoSiteDasLojasAmericanas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 129886797,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionamos em Login",
+            "match": {
+              "location": "StepsLojasAmericanas.selecionamosEmLogin()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validar a mensagem de e-mail ja cadastrado",
+        "description": "",
+        "id": "cadastro-para-cliente-novo-no-site-lojas-americanas;validar-a-mensagem-de-e-mail-ja-cadastrado",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2747710442,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "selecionamos em cliente novo",
+            "match": {
+              "location": "StepsLojasAmericanas.selecionamosEmClienteNovo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3444066821,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preenchemos no campo email o valor \"teste@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teste@hotmail.com",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsLojasAmericanas.preenchemosNoCampoEmailOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 128916413,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "preenchemos no campo senha o valor \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsLojasAmericanas.preenchemosNoCampoSenhaOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 118892011,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "selecionamos em Registrar",
+            "match": {
+              "location": "StepsLojasAmericanas.selecionamosEmRegistrar()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Teste_Lojas_Americanas"
+          },
+          {
+            "name": "@Parte_01_Validar_Email_Cadastrado"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro para Cliente Novo no site Lojas Americanas",
+    "description": "  - Primeira parte somente validacao de erros\n  - Segunda parte cadastro e procurar ofertas",
+    "id": "cadastro-para-cliente-novo-no-site-lojas-americanas",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/features/LojasAmericanasTeste.feature",
+    "tags": [
+      {
+        "name": "@Teste_Lojas_Americanas",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
